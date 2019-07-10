@@ -1,0 +1,38 @@
+.header {
+    background-color: $color-secundary;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px; /*arriba y abajo - izqda y dcha*/
+    position: fixed;
+    top: 0;
+    width: 100vw;
+}
+
+.logo {
+    width: 100px;
+    
+    &_img {
+        width: 100%;
+    }
+}
+.menu {
+    
+    &_item {
+        display: inline-block;
+    }
+    &_link {
+        display: inline-block;
+        color: white;
+        text-decoration: none;
+        padding: 10px;
+        transition: all 0.5s;
+    }
+    
+    &_link:hover {
+        background-color: white;
+        color: $color-primary;
+        border-radius: 5px;
+        
+    }
+}

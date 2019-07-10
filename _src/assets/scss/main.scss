@@ -1,6 +1,4 @@
 @import 'core/variables';
-@import 'core/links';
+@import 'core/reset';
+@import 'layouts/header';
 
-body {
-	margin: 0;
-}
