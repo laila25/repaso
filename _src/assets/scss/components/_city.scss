@@ -1,0 +1,46 @@
+
+.cities {
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 250px 250px 250px;
+    grid-gap: 10px;
+
+}
+
+.city {
+    list-style: none;
+    border-radius: 10px;
+    display: flex;
+    align-items: flex-end;
+    overflow: hidden;
+
+    &_content {
+        width: 100%;
+        padding-left: 10px;
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+}
+
+.wide {
+    grid-column: span 2;
+}
+
+.tall {
+    grid-row: span 2;
+}
+
+.tokio {
+    background: url(../images/london.jpg) no-repeat;
+    background-size: cover;
+}
+
+.london {
+    background: url(../images/london.jpg) no-repeat;
+    background-size: cover;
+}
+
+.paris {
+    background: url(../images/london.jpg) no-repeat;
+    background-size: cover;
+}
